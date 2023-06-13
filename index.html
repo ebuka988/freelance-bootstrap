@@ -7,16 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg nav-bar p-4 fixed-top">
         <div class="container">
-            <a class="navbar-brand text-light fw-bold" href="#">START BOOTSTRAP</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand text-light fw-bold mr-0" href="#">START BOOTSTRAP</a>
+            <button class="navbar-toggler text-white bg-suc mt-2" type="button" data-bs-toggle="collapse" value="Menu"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <span class="navbar-toggler-icon "></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto fw-bold">
@@ -35,25 +40,46 @@
         </div>
     </nav>
     <section class="container-fluid min-vh-100 avataar-section">
-        <div class=" mx-auto py-5">
-            <div class="w-25 mx-auto my-5">
-                <img class="w-75 img-fluid ms-5 my-5" src="./assest/avataaars.svg" alt="">
+
+        <div class="row justify-content-center">
+            <div class=" col-lg-4 col-md-4 col-sm-2 pt-5 mt-5 text-center">
+                <img class="img-fluid p-5"
+                    src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="...">
             </div>
 
-            <div class="start-boot text-center text-light">
-                <h1>START BOOTSTRAP</h1>
-                <P>Graphic Artist- Web Designer-illustartor</P>
+            <div class="start-boot text-center text-light p-2">
+                <h1 class="display-3 fw-bold">START BOOTSTRAP</h1>
+
+                <div class="divider-custom divider-light rounded-3 justify-content-center">
+                    <div class="divider-custom-line-1 rounded-3"></div>
+                    <i class="bi bi-star-fill "></i>
+                    <div class="divider-custom-line-2 rounded-3"></div>
+                </div>
+
+                <P class="pb-5 fs-4">Graphic Artist- Web Designer-illustartor</P>
             </div>
         </div>
 
     </section>
 
 
-    <section class="container  Portfolio-section">
+    <section class="container  Portfolio-section ">
+
+        <div class="container-fluid justify-content-center">
 
 
-        <div class="portfolio text-center m-5 ">
-            <h1>Portfolio</h1>
+            <div class="portfolio text-center m-5 col-sm-6 mw-100 mx-auto">
+                <h1 class="">Portfolio</h1>
+                <div class="row justify-content-center">
+                    <div class="divider-custom divider-dark rounded-3 justify-content-center">
+                        <div class="divider-custom-line-3 rounded-3 "></div>
+                        <i class="bi bi-star-fill star-dark "></i>
+                        <div class="divider-custom-line-3 rounded-3"></div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
         <div class="row gy-3 md-px-3">
@@ -88,7 +114,7 @@
                 </div>
             </div>
 
-            <div class="mx-auto col-lg-4 col-md-6 col-sm-12 ">
+            <div class="mx-auto col-lg-4 col-md-6 col-sm-12 mb-5 ">
                 <div class="">
                     <img class="w-100 img-fluid rounded-3" src="./assest/portfolio/submarine.png" alt="">
                 </div>
@@ -97,6 +123,151 @@
 
     </section>
 
+    <section>
+
+        <div class="container-fluid about-section">
+
+            <div class="about text-center p-5 text-light">
+                <h1>ABOUT</h1>
+                <div class="row justify-content-center">
+                    <div class="divider-custom divider-light rounded-3 justify-content-center">
+                        <div class="divider-custom-line-1 rounded-3"></div>
+                        <i class="bi bi-star-fill "></i>
+                        <div class="divider-custom-line-2 rounded-3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+
+                <div class=" col-sm-12 col-md-6 col-lg-3 text-light fs-5">
+                    <p>Freelancer is a free bootstrap theme
+                        created by Start Bootstrap. The
+                        download includes the complete source
+                        files including HTML, CSS, and
+                        JavaScript as well as optional SASS
+                        stylesheets for easy customization.
+                    </p>
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-3 text-light fs-5">
+                    <p>
+                        You can create your own custom avatar
+                        for the masthead, change the icon in the
+                        dividers, and add your email address to
+                        the contact form to make it fully
+                        functional!
+                    </p>
+                </div>
+
+                <div class="text-center m-5">
+                    <button class="btn btn-outline-light text-align-center">FREE DOWNLOAD</button>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+
+    <section>
+
+        <div class="contact text-center p-5 ">
+            <h1>
+                CONTACT ME
+            </h1>
+
+            <div class="divider-custom divider-dark rounded-3 justify-content-center">
+                <div class="divider-custom-line-3 rounded-3 "></div>
+                <i class="bi bi-star-fill star-dark "></i>
+                <div class="divider-custom-line-3 rounded-3"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="w-50 mx-auto">
+
+        <div class="mb-3 ">
+            <label for="formGroupExampleInput" class="form-label"></label>
+            <input type="text" class="form-control border border-top-0 border-start-0 border-end-0"
+                id="formGroupExampleInput" placeholder="Full name">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label"></label>
+            <input type="text" class="form-control border border-top-0 border-start-0 border-end-0"
+                id="formGroupExampleInput2" placeholder="Email address">
+        </div>
+
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label"></label>
+            <input type="text" class="form-control border border-top-0 border-start-0 border-end-0"
+                id="formGroupExampleInput2" placeholder="Phone Number">
+        </div>
+
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label"></label>
+            <input type="text" class="form-control border border-top-0 border-start-0 border-end-0"
+                id="formGroupExampleInput2" placeholder="Message">
+        </div>
+
+
+        <div class="  ml-0 pb-5">
+            <button class="btn btn-success text-align-center">SEND</button>
+        </div>
+
+    </section>
+
+    <section class="location-section p-5">
+
+        <div class=" ">
+
+            <div class="row justify-content-center">
+
+                <div class="col-sm-7 col-md-7 col-lg-4 py-5 text-light text-center">
+                    <h3 class="">LOCATION</h3>
+                    <p>2215 JOHN DANIEL DRIVE <br> CLARK, MO 65243</p>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4 py-5 text-light text-center">
+                    <h3 class="">AROUND THE WEB</h3>
+                    <a href="./assest/portfolio/dribbble.png"><img class="img-fluid social-icon" src="./assest/portfolio/dribbble.png" alt="" srcset=""></a>
+                    <img class="img-fluid social-icon" src="./assest/portfolio/facebook.png"  alt="facebook icon">
+                    <img src="./assest/portfolio/twitter.png" class="img-fluid social-icon" alt="Twitter icon">
+                    <img src="./assest/portfolio/linkedin.png" class="img-fluid social-icon" alt="linkedin icon">
+                    <img src="./assest/portfolio/dribbble.png" class="img-fluid social-icon" alt="dribbble icon">
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-3 py-5 text-light text-center">
+                    <h3 class="">ABOUT FREELANCER</h3>
+                    <p>Freelance is free to use, MIT licensed
+                        Bootstrap theme created by Start <br> Bootstrap.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="copy-section ">
+
+            <div class=" justify-content-center p-3">
+                <p class="text-light text-center">Copyright © Your Website 2023</p>
+            </div>
+
+        </div>
+
+    </section>
 
 
     <script src="./js/bootstrap.min.js"></script>
